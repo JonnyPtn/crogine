@@ -31,7 +31,7 @@ jobs:
 
     - name: Install macOS Dependencies
       if: runner.os == 'MacOS'
-      run: brew update && brew install sdl2 assimp openal-soft opus
+      run: brew update && brew install sdl2 assimp openal-soft opus bullet
 
     - name: Configure CMake
       # Use a bash shell so we can use the same syntax for environment variable
